@@ -28,6 +28,7 @@ def root():
     return {"status": "Healthcheck is running"}
 
 
+print("Hello, World!")
 
 @app.post("/name")
 def name(name: str):
